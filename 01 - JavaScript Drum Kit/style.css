@@ -18,12 +18,13 @@ body,html {
 
 .drum-kit {
 	width: 100%;
-  top: 114px;
+	position: absolute;
 }
 
 .crash-cymbal {
 	position: absolute;
-  top: 114px;
+  width: 20%;
+  bottom: 3%;
   left: 80px;
     transform: rotate(-7.2deg) scale(1.5);
     transition: all ease-in-out .042s;
