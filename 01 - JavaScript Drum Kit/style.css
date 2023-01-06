@@ -22,7 +22,7 @@ body,html {
 	width: 93%;
 }
 .rufus {
-	width: 93%;
+	width: 100%;
 }
 
 
@@ -37,16 +37,17 @@ body,html {
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid rgba(253, 253, 253, 0.137);
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
   transition: all .07s ease;
   width: 10rem;
+  height: 35rem;
   text-align: center;
   color: white;
-  background: rgba(32,110,201,0.5);
+  background: rgba(0, 0, 201, 0.219);
   text-shadow: 0 0 .5rem black;
 }
 
