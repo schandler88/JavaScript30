@@ -1,6 +1,7 @@
 html {
   font-size: 10px;
-
+  background: url('https://raw.githubusercontent.com/schandler88/JavaScript30/master/01%20-%20JavaScript%20Drum%20Kit/background.png') top center;
+  background-size: cover;
 }
 
 body,html {
@@ -9,26 +10,18 @@ body,html {
   font-family: sans-serif;
 }
 
-
-
-.drum-kit-wrapper {
-	position: relative;
-
-}
-
-.drum-kit {
+.bill {
 	width: 100%;
-	position: absolute;
+  left: 70%;
+	position: relative;
 }
 
-.crash-cymbal {
-	position: absolute;
-  width: 20%;
-  bottom: 3%;
-  left: 80px;
-    transform: rotate(-7.2deg) scale(1.5);
-    transition: all ease-in-out .042s;
+.ted {
+	width: 100%;
+  left: 30%;
+	position: relative;
 }
+
 
 
 .keys {
