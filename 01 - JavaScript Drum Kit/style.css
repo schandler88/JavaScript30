@@ -1,7 +1,6 @@
 html {
   font-size: 10px;
-  background: url('./background.jpg') bottom center;
-  background-size: cover;
+
 }
 
 body,html {
@@ -9,6 +8,27 @@ body,html {
   padding: 0;
   font-family: sans-serif;
 }
+
+
+
+.drum-kit-wrapper {
+	position: relative;
+
+}
+
+.drum-kit {
+	width: 100%;
+  top: 114px;
+}
+
+.crash-cymbal {
+	position: absolute;
+  top: 114px;
+  left: 80px;
+    transform: rotate(-7.2deg) scale(1.5);
+    transition: all ease-in-out .042s;
+}
+
 
 .keys {
   display: flex;
